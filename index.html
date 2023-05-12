@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        img{
+            width: 100px;
+        }
+        #banner{
+            width: 800px;
+        }
+    </style>
+    <title>Consultorio Cent 35</title>
+</head>
+<body>
+    <header>
+        <figure>
+            <img id="logo" src="./assets/img/logo_consultorio.png" alt="Logo del gimnasio">
+        </figure>
+        <h1>Consultorio CENT 35</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#seccion1">Servicio</a></li>
+                <li><a href="#seccion2">Contacto</a></li>
+                <li><a href="#seccion3">Turno</a></li>
+                <li><a href="#seccion4">Profesionales</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="seccion1">
+            <figure id="div-banner">
+                <img id="banner" src="./assets/img/centro-medico-e1620819797482.jpg" alt="banner">
+            </figure>
+            <h2>Servicios</h2>
+            <table id="tabla-servicios" style="border: 2px solid grey;">
+                <tbody>
+                    <tr>
+                        <td class="t-nombre">Rayos X</td>
+                        <td class="t-img"><img src="./assets/img/servicio1.png" alt="Rayox X"></td>
+                        <td class="t-descripcion">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, temporibus?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat consequuntur sequi doloremque autem recusandae et libero excepturi accusantium quaerat molestias!</td>
+                        <td class="t-info"><a href="">Mas info</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t-nombre">Pediatria</td>
+                        <td class="t-img"><img src="./assets/img/servicio2.png" alt="Pediatria"></td>
+                        <td class="t-descripcion">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, temporibus?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam impedit neque ea praesentium sequi unde sapiente sunt nesciunt qui fuga!</td>
+                        <td class="t-info"><a href="">Mas info</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t-nombre">Cirugia</td>
+                        <td class="t-img"><img src="./assets/img/servicio3.png" alt="Pediatria"></td>
+                        <td class="t-descripcion">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, temporibus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis rem ab dolorum blanditiis quia dicta perferendis fuga quo minima molestias.</td>
+                        <td class="t-info"><a href="">Mas info</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="seccion2">
+            <h2>Formulario de Contacto</h2>
+            <form action="">
+                <label for="nombre">Nombre <input id="nombre" type="text"></label>
+                <label for="apellido">Apellido <input id="apellido" type="text"></label>
+                <label for="email">Correo Electronico <input id="email" type="email"></label>
+                <!-- <label for="comentario">Comentario 
+                    <textarea name="" id="comentario" cols="30" rows="5"></textarea>
+                </label> -->
+                <textarea name="" id="comentario" cols="30" rows="5" placeholder="Comentario"></textarea>
+                <input type="submit" value="Enviar">
+                
+            </form>
+        </section>
+
+        <section id="seccion3">
+            <h2>Turnos</h2>
+            <table id="tabla-turnos" style="border: 2px solid grey;">
+                <thead>
+                    <tr>
+                        <th>Lunes</th>
+                        <th>Martes</th>
+                        <th>Miercoles</th>
+                        <th>Jueves</th>
+                        <th>Viernes</th>
+                    </tr>
+
+                    
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>8:00 - 9:00</td>
+                        <td>9:00 - 10:00</td>
+                        <td>10:00 - 11:00</td>
+                        <td>11:00 - 12:00</td>
+                        <td>12:00 - 13:00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="seccion4">
+            <h2>Profesionales</h2>
+            <table id="tabla-profesionales" style="border: 2px solid grey;">
+                <tbody>
+                    <tr>
+                        <td class="t-nombre">Juan Perez</td>
+                        <td class="t-img"><img src="./assets/img/doctor1.png" alt="Doctor 1"></td>
+                        <td class="t-descripcion">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, temporibus?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat consequuntur sequi doloremque autem recusandae et libero excepturi accusantium quaerat molestias!</td>
+                        <td class="t-info"><a href="">Mas info</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t-nombre">Micaela Vega</td>
+                        <td class="t-img"><img src="./assets/img/doctor2.jpg" alt="Doctor 2"></td>
+                        <td class="t-descripcion">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, temporibus?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam impedit neque ea praesentium sequi unde sapiente sunt nesciunt qui fuga!</td>
+                        <td class="t-info"><a href="">Mas info</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t-nombre">Franco Diaz</td>
+                        <td class="t-img"><img src="./assets/img/doctor3.jpg" alt="Doctor 3"></td>
+                        <td class="t-descripcion">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, temporibus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis rem ab dolorum blanditiis quia dicta perferendis fuga quo minima molestias.</td>
+                        <td class="t-info"><a href="">Mas info</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>+54 2964 626262</p>
+        <p>Cent35@salud.com</p>
+        </p>© CENT 35</p>
+    </footer>
+</body>
+</html>
